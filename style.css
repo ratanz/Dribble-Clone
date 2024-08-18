@@ -511,7 +511,7 @@ h4:hover {
   }
 
   .scrolling-wrapper {
-    animation: move 28s ease-in-out infinite;
+    animation: move 31s ease-in-out infinite;
   }
 
   @keyframes move {
@@ -520,7 +520,7 @@ h4:hover {
     }
   
     to {
-      transform: translateX(-840%);
+      transform: translateX(-1433%);
     }
   }
 
