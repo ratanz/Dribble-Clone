@@ -232,6 +232,8 @@ body {
   }
 }
 
+/* page 2 */
+
 .page2 {
   height: 100%;
   width: 100%;
@@ -473,10 +475,10 @@ h4:hover {
     padding: 10px 10px;
     width: 50%;
     margin-top: 1rem;
-    background-color: #0d0c22;
     color: #fff;
-    border-radius: 8px;
+    border-radius: 10px;
     font-weight: 500;
+    margin-bottom: 1rem;
   }
 
   /* Bottom scrolling section */
@@ -506,6 +508,20 @@ h4:hover {
     scale: 1.1;
     transition: all 0.5s ease;
     box-shadow: none;
+  }
+
+  .scrolling-wrapper {
+    animation: move 15s ease-in-out infinite;
+  }
+
+  @keyframes move {
+    from {
+      transform: translateX(0);
+    }
+  
+    to {
+      transform: translateX(-1440%);
+    }
   }
 
   /* page 2 */
