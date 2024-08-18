@@ -392,7 +392,7 @@ h4:hover {
 }
 
 
-@media (max-width: 650px) {
+@media (max-width: 600px) {
 
 
   /* Navigation */
@@ -439,8 +439,9 @@ h4:hover {
 
   /* Content */
   .content {
-    padding: 1.5rem 1rem;
+    padding: 3rem 1rem;
     text-align: center;
+    height: auto;
   }
 
   .content-part1 h3 {
@@ -484,7 +485,7 @@ h4:hover {
     grid-template-columns: repeat(1, 1fr);
     gap: 2rem;
     padding: 1rem;
-    height: auto;
+    height:auto;
   }
 
   .elem {
